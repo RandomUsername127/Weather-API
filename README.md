@@ -8,4 +8,4 @@ Things to Remember: <br />
 (3)It is a small application.<br />
 
 <br />
-For more information please visit: https://openweathermap.org/appid
+For more information about the api please visit: https://openweathermap.org/appid

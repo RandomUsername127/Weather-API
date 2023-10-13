@@ -25,7 +25,7 @@ const getcitycoords = async function (city) {
     const temp_in_kelvin = weather.main.temp;
     const kelvin_to_farenheit = Math.ceil((temp_in_kelvin - 273.15) * 1.8 + 32) + "℗F";
     const show_values = [weather.name,weather.sys.country,kelvin_to_farenheit ,weather.weather[0].description]
-    console.log(show_values);
+    return show_values;
 
 
   } catch (err) {
